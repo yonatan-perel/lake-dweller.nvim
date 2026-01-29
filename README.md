@@ -1,41 +1,13 @@
 # lake-dweller.nvim
 
-```
-                ██████████████
-            ████░░░░░░░░░░░░░░████
-          ██░░░░░░░░░░░░░░░░░░░░░░██
-        ██░░░░░░░░░░░░░░░░░░░░░░░░░░██
-      ██░░░░░░████░░░░░░░░████░░░░░░░░██
-      ██░░░░░░████░░░░░░░░████░░░░░░░░██
-    ██░░░░░░░░░░░░░░██░░░░░░░░░░░░░░░░░░██
-～～～██░░░░░░░░░░░██░░░░░░░░░░░░░░░░░░██～～～
-～～～～～～～～～～～～～～～～～～～～～～～～～～～～
-  ～～～～～～～～～～～～～～～～～～～～～～～～～～
-～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～
-```
+<p align="center">
+  <img src="assets/logo.svg" alt="lake-dweller logo" width="400">
+</p>
 
 A minimal, soft dark colorscheme for Neovim with muted tones and subtle contrast.
 
 ![lake-dweller](https://via.placeholder.com/800x400?text=Add+Screenshot+Here)
 
-## Philosophy
-
-### You don't need a color for *everything*
-
-Only use distinct colors for specific, common stuff - so you can tell at a glance what your looking at:
-1. functions 
-2. types 
-3. keywords 
-4. contant values - numbers, booleans, strings, nulls, etc.
-5. comments 
-
-### Keywords don't need your attention
-
-Keywords are the most repetative part of the code and therefore easiest to read quickly - you don't really need them to stand out.
-
-### Comments are importent
-
-You should not neglect you comments. They should pop-out to you immidiatly, while being easy to tell apart from actual code.
 
 ## Requirements
 
@@ -108,6 +80,27 @@ require("lualine").setup({
 - [Trouble.nvim](https://github.com/folke/trouble.nvim)
 - [which-key.nvim](https://github.com/folke/which-key.nvim)
 - [Snacks.nvim](https://github.com/folke/snacks.nvim)
+
+## Philosophy
+
+This theme makes some opinionated decisions based on the following principles:
+
+### You don't need a color for *everything*
+
+Only use distinct colors for specific, common elements—so you can tell at a glance what you're looking at:
+1. Functions
+2. Types
+3. Keywords
+4. Constant values—numbers, booleans, strings, nulls, etc.
+5. Comments
+
+### Keywords don't need your attention
+
+Keywords are the most repetitive part of code and therefore the easiest to read quickly—you don't really need them to stand out.
+
+### Comments are important
+
+You should not neglect your comments. They should pop out immediately, while being easy to distinguish from actual code.
 
 ## License
 
