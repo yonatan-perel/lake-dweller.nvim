@@ -3,6 +3,7 @@
 A minimal, soft dark colorscheme for Neovim with muted tones and subtle contrast.
 
 ![lake-dweller](assets/screenshot.png)
+![lake-dweller](assets/screenshot-2.png)
 
 ## Requirements
 
