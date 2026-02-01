@@ -97,6 +97,12 @@ Keywords are the most repetitive part of code and therefore the easiest to read 
 
 You should not neglect your comments. They should pop out immediately, while being easy to distinguish from actual code.
 
+## Inspiration
+
+- [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)
+- [rose-pine](https://github.com/rose-pine/neovim)
+- [alabaster.nvim](https://github.com/p00f/alabaster.nvim)
+
 ## License
 
 MIT
