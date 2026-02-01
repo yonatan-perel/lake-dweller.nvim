@@ -41,14 +41,13 @@ require("lake-dweller").setup({
 Additional theme files for other applications are in the `extras/` directory:
 
 - **Wezterm**: `extras/wezterm/lake-dweller.toml`
-- **Lualine**: `extras/lualine/lake-dweller.lua`
 
 ### Lualine
 
 ```lua
 require("lualine").setup({
     options = {
-        theme = "lake-dweller",
+        theme = require("lualine.themes.lake-dweller"),
     },
 })
 ```
@@ -75,6 +74,7 @@ require("lualine").setup({
 - [Trouble.nvim](https://github.com/folke/trouble.nvim)
 - [which-key.nvim](https://github.com/folke/which-key.nvim)
 - [Snacks.nvim](https://github.com/folke/snacks.nvim)
+- [nvim-notify](https://github.com/rcarriga/nvim-notify)
 
 ## Philosophy
 
