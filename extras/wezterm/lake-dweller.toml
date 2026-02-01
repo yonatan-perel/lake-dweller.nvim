@@ -1,6 +1,6 @@
 [metadata]
 name = "Lake Dweller"
-origin_url = "https://github.com/yourusername/lake-dweller.nvim"
+origin_url = "https://github.com/yonatan-perel/lake-dweller.nvim"
 
 [colors]
 foreground = "#d8d8d8"

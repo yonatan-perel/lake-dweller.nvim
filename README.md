@@ -6,9 +6,6 @@
 
 A minimal, soft dark colorscheme for Neovim with muted tones and subtle contrast.
 
-![lake-dweller](https://via.placeholder.com/800x400?text=Add+Screenshot+Here)
-
-
 ## Requirements
 
 - Neovim >= 0.8.0
@@ -20,7 +17,7 @@ A minimal, soft dark colorscheme for Neovim with muted tones and subtle contrast
 
 ```lua
 {
-    "yourusername/lake-dweller.nvim",
+    "yonatan-perel/lake-dweller.nvim",
     lazy = false,
     priority = 1000,
     config = function()
