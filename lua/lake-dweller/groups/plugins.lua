@@ -149,6 +149,9 @@ return function(t, p, config)
         WhichKeyNormal = { fg = t.fg, bg = t.bg },
         WhichKeyTitle = { fg = t.fg, bg = t.bg, bold = true },
 
+-- nvim-notify
+        NotifyBackground = { bg = p.dark_navy },
+
         -- Snacks.nvim
         SnacksPickerNormal = { fg = t.fg, bg = t.bg },
         SnacksPickerBorder = { fg = t.border, bg = t.bg },

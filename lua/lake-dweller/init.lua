@@ -7,6 +7,9 @@ M.config = {
 
 function M.setup(opts)
     M.config = vim.tbl_deep_extend("force", M.config, opts or {})
+    if vim.g.colors_name == "lake-dweller" then
+        M.load()
+    end
 end
 
 function M.load()
