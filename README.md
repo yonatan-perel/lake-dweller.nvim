@@ -1,10 +1,8 @@
 # lake-dweller.nvim
 
-<p align="center">
-  <img src="assets/logo.png" alt="lake-dweller logo" width="600">
-</p>
-
 A minimal, soft dark colorscheme for Neovim with muted tones and subtle contrast.
+
+![lake-dweller](assets/screenshot.png)
 
 ## Requirements
 
