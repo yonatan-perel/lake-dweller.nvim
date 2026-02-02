@@ -1,9 +1,11 @@
 # lake-dweller.nvim
 
-<p align="center">A minimal dark colorscheme that you can actually read at a glance.</p>
+<p align="center">
+  <img src="assets/screenshot.png" width="49%">
+  <img src="assets/screenshot-2.png" width="49%">
+</p>
 
-![lake-dweller](assets/screenshot.png)
-![lake-dweller](assets/screenshot-2.png)
+<p align="center">A minimal dark colorscheme that you can actually read at a glance.</p>
 
 ## Requirements
 
