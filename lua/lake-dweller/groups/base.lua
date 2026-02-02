@@ -36,5 +36,6 @@ return function(t, p, config)
         DiffText = { fg = t.keyword, underline = true },
 
         Underlined = { fg = t.func, underline = true },
+        MoreMsg = { fg = t.func },
     }
 end
