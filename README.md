@@ -1,6 +1,6 @@
 # lake-dweller.nvim
 
-A minimal, soft dark colorscheme for Neovim with muted tones and subtle contrast.
+<p align="center">A minimal dark colorscheme that you can actually read at a glance.</p>
 
 ![lake-dweller](assets/screenshot.png)
 ![lake-dweller](assets/screenshot-2.png)
