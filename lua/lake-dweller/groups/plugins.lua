@@ -150,7 +150,7 @@ return function(t, p, config)
         WhichKeyNormal = { fg = t.fg, bg = t.bg },
         WhichKeyTitle = { fg = t.fg, bg = t.bg, bold = true },
 
--- nvim-notify
+        -- nvim-notify
         NotifyBackground = { bg = p.dark_navy },
 
         -- Snacks.nvim
