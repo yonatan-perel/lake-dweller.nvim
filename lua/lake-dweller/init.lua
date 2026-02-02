@@ -2,7 +2,7 @@ local M = {}
 
 M.config = {
     transparent = false,
-    italic_comments = true,
+    italics = true,
 }
 
 function M.setup(opts)

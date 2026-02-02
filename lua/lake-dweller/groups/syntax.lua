@@ -1,5 +1,6 @@
 return function(t, p, config)
-    local comment_style = config.italic_comments and { fg = t.comment, italic = true } or { fg = t.comment }
+    local italic = config.italics or false
+    local comment_style = { fg = t.comment, italic = italic }
 
     return {
         -- Comments

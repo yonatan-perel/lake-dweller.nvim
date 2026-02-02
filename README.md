@@ -32,8 +32,8 @@ A minimal, soft dark colorscheme for Neovim with muted tones and subtle contrast
 
 ```lua
 require("lake-dweller").setup({
-    transparent = false,      -- enable transparent background
-    italic_comments = true,   -- use italics for comments
+    transparent = false,  -- enable transparent background
+    italics = true,       -- enable italic text
 })
 ```
 
@@ -76,6 +76,7 @@ require("lualine").setup({
 - [which-key.nvim](https://github.com/folke/which-key.nvim)
 - [Snacks.nvim](https://github.com/folke/snacks.nvim)
 - [nvim-notify](https://github.com/rcarriga/nvim-notify)
+- [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
 
 ## Philosophy
 
