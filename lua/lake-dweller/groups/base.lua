@@ -34,5 +34,7 @@ return function(t, p, config)
         DiffChange = { fg = t.changed },
         DiffDelete = { fg = t.deleted },
         DiffText = { fg = t.keyword, underline = true },
+
+        Underlined = { fg = t.func, underline = true },
     }
 end
