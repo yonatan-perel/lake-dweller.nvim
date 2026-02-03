@@ -1,8 +1,5 @@
 # lake-dweller.nvim
 
-![Neovim](https://img.shields.io/badge/Neovim-0.8+-green?logo=neovim)
-![License](https://img.shields.io/badge/License-MIT-blue)
-
 <p align="center">A minimal dark colorscheme that you can actually read at a glance.</p>
 
 <table>
