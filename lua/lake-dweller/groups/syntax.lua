@@ -149,6 +149,12 @@ return function(t, p, config)
         ["@lsp.typemod.variable.readonly.typescript"] = { link = "@variable" },
         ["@lsp.typemod.variable.readonly.typescriptreact"] = { link = "@variable" },
         typescriptIdentifier = { fg = t.constant },
+        typescriptHeadersMethod = { fg = t.func },
+        typescriptProp = { fg = t.variable },
+        ["@lsp.type.member.typescript"] = { fg = t.func },
+        ["@lsp.type.member.typescriptreact"] = { fg = t.func },
+        ["@lsp.typemod.member.defaultLibrary.typescript"] = { fg = t.func },
+        ["@lsp.typemod.member.defaultLibrary.typescriptreact"] = { fg = t.func },
 
         -- Python
         ["@variable.builtin"] = { fg = t.constant },
