@@ -28,7 +28,7 @@ return function(t, p, config)
         StatusLineNC = { fg = t.fg_dim, bg = t.float_bg },
 
         Directory = { fg = t.type, bg = t.bg, bold = true },
-        Special = { fg = t.fg, bg = t.float_bg },
+        Special = { fg = t.keyword },
 
         DiffAdd = { fg = t.added },
         DiffChange = { fg = t.changed },

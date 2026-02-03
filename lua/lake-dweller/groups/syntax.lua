@@ -86,7 +86,7 @@ return function(t, p, config)
         ["@punctuation"] = { fg = t.fg },
         ["@punctuation.bracket"] = { fg = t.fg },
         ["@punctuation.delimiter"] = { fg = t.fg },
-        ["@punctuation.special"] = { fg = t.constant },
+        ["@punctuation.special"] = { fg = t.fg },
 
         -- Attributes and macros
         ["@attribute"] = { fg = t.keyword },
@@ -94,37 +94,7 @@ return function(t, p, config)
         ["@constant.macro"] = { fg = t.constant },
         ["@function.macro"] = { fg = t.func },
 
-        -- Rust specific
-        ["@type.qualifier"] = { fg = t.keyword },
-        ["@keyword.modifier"] = { fg = t.keyword },
-        ["@label"] = { fg = t.constant },
-        ["@storageclass"] = { fg = t.keyword },
-
-        -- TypeScript/JavaScript specific
-        ["@keyword.import"] = { fg = t.keyword },
-        ["@keyword.export"] = { fg = t.keyword },
-        ["@keyword.coroutine"] = { fg = t.keyword },
-        ["@keyword.operator"] = { fg = t.keyword },
-        ["@type.definition"] = { fg = t.type },
-        ["@tag"] = { fg = t.keyword },
-        ["@tag.attribute"] = { fg = t.variable },
-        ["@tag.delimiter"] = { fg = t.fg },
-
-        -- Python
-        ["@variable.builtin"] = { fg = t.constant },
-        ["@keyword.exception"] = { fg = t.keyword },
-        ["@string.documentation"] = comment_style,
-
-        -- SQL
-        ["@keyword.conditional"] = { fg = t.keyword },
-
-        -- C/C++
-        ["@keyword.directive"] = { fg = t.keyword },
-        ["@keyword.directive.define"] = { fg = t.keyword },
-        ["@string.special.path"] = { fg = t.string },
-        ["@variable.member.cpp"] = { fg = t.variable },
-
-        -- LSP semantic tokens (general)
+        -- LSP semantic tokens
         ["@lsp.type.variable"] = { link = "@variable" },
         ["@lsp.type.parameter"] = { link = "@variable.parameter" },
         ["@lsp.type.property"] = { link = "@property" },
@@ -148,7 +118,11 @@ return function(t, p, config)
         ["@lsp.typemod.function.defaultLibrary"] = { link = "@function.builtin" },
         ["@lsp.typemod.variable.readonly"] = { link = "@constant" },
 
-        -- Rust (rust-analyzer)
+        -- Rust
+        ["@type.qualifier"] = { fg = t.keyword },
+        ["@keyword.modifier"] = { fg = t.keyword },
+        ["@label"] = { fg = t.constant },
+        ["@storageclass"] = { fg = t.keyword },
         ["@lsp.type.macro.rust"] = { link = "@function.macro" },
         ["@lsp.type.lifetime.rust"] = { link = "@label" },
         ["@lsp.type.builtinType.rust"] = { link = "@type.builtin" },
@@ -159,13 +133,27 @@ return function(t, p, config)
         ["@lsp.typemod.function.declaration.rust"] = { link = "@function" },
         ["@lsp.typemod.method.declaration.rust"] = { link = "@function" },
 
-        -- TypeScript/JavaScript (tsserver)
+        -- TypeScript/JavaScript
+        ["@keyword.import"] = { fg = t.keyword },
+        ["@keyword.export"] = { fg = t.keyword },
+        ["@keyword.coroutine"] = { fg = t.keyword },
+        ["@keyword.operator"] = { fg = t.keyword },
+        ["@type.definition"] = { fg = t.type },
+        ["@tag"] = { fg = t.keyword },
+        ["@tag.attribute"] = { fg = t.variable },
+        ["@tag.delimiter"] = { fg = t.fg },
         ["@lsp.type.type.typescript"] = { link = "@type" },
         ["@lsp.type.type.typescriptreact"] = { link = "@type" },
         ["@lsp.type.interface.typescript"] = { link = "@type" },
         ["@lsp.type.interface.typescriptreact"] = { link = "@type" },
+        ["@lsp.typemod.variable.readonly.typescript"] = { link = "@variable" },
+        ["@lsp.typemod.variable.readonly.typescriptreact"] = { link = "@variable" },
+        typescriptIdentifier = { fg = t.constant },
 
-        -- Python (pyright/pylsp)
+        -- Python
+        ["@variable.builtin"] = { fg = t.constant },
+        ["@keyword.exception"] = { fg = t.keyword },
+        ["@string.documentation"] = comment_style,
         ["@lsp.type.class.python"] = { link = "@type" },
         ["@lsp.type.decorator.python"] = { link = "@function" },
         ["@lsp.type.function.python"] = { link = "@function" },
@@ -175,7 +163,14 @@ return function(t, p, config)
         ["@lsp.type.selfParameter.python"] = { link = "@variable.builtin" },
         ["@lsp.type.clsParameter.python"] = { link = "@variable.builtin" },
 
-        -- C/C++ (clangd)
+        -- SQL
+        ["@keyword.conditional"] = { fg = t.keyword },
+
+        -- C/C++
+        ["@keyword.directive"] = { fg = t.keyword },
+        ["@keyword.directive.define"] = { fg = t.keyword },
+        ["@string.special.path"] = { fg = t.string },
+        ["@variable.member.cpp"] = { fg = t.variable },
         ["@lsp.type.macro.c"] = { link = "@constant.macro" },
         ["@lsp.type.macro.cpp"] = { link = "@constant.macro" },
         ["@lsp.type.typeParameter.cpp"] = { link = "@type" },
