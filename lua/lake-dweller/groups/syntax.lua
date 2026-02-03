@@ -51,7 +51,7 @@ return function(t, p, config)
         ["@method"] = { fg = t.func },
         ["@function.call"] = { fg = t.func },
         ["@method.call"] = { fg = t.func },
-        ["@constructor"] = { fg = t.func },
+        ["@constructor"] = { fg = t.type },
         ["@function.builtin"] = { fg = t.func },
 
         -- Variables
