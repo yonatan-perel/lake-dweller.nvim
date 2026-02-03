@@ -1,14 +1,21 @@
 # lake-dweller.nvim
 
-![Neovim](https://img.shields.io/badge/Neovim-0.8+-green?logo=neovim)
-![License](https://img.shields.io/badge/License-MIT-blue)
-
-<p align="center">
-  <img src="assets/screenshot.png" width="49%">
-  <img src="assets/screenshot-2.png" width="49%">
-</p>
-
 <p align="center">A minimal dark colorscheme that you can actually read at a glance.</p>
+
+<table>
+  <tr>
+    <td align="center"><img src="assets/go.png" width="100%"><br><sub>Go</sub></td>
+    <td align="center"><img src="assets/rust.png" width="100%"><br><sub>Rust</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/typescript.png" width="100%"><br><sub>TypeScript</sub></td>
+    <td align="center"><img src="assets/python.png" width="100%"><br><sub>Python</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/cpp.png" width="100%"><br><sub>C++</sub></td>
+    <td align="center"><img src="assets/sql.png" width="100%"><br><sub>SQL</sub></td>
+  </tr>
+</table>
 
 ## Requirements
 
