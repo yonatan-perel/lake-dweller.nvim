@@ -118,6 +118,12 @@ return function(t, p, config)
         -- SQL
         ["@keyword.conditional"] = { fg = t.keyword },
 
+        -- C/C++
+        ["@keyword.directive"] = { fg = t.keyword },
+        ["@keyword.directive.define"] = { fg = t.keyword },
+        ["@string.special.path"] = { fg = t.string },
+        ["@variable.member.cpp"] = { fg = t.variable },
+
         -- LSP semantic tokens (general)
         ["@lsp.type.variable"] = { link = "@variable" },
         ["@lsp.type.parameter"] = { link = "@variable.parameter" },
@@ -168,5 +174,14 @@ return function(t, p, config)
         ["@lsp.type.variable.python"] = { link = "@variable" },
         ["@lsp.type.selfParameter.python"] = { link = "@variable.builtin" },
         ["@lsp.type.clsParameter.python"] = { link = "@variable.builtin" },
+
+        -- C/C++ (clangd)
+        ["@lsp.type.macro.c"] = { link = "@constant.macro" },
+        ["@lsp.type.macro.cpp"] = { link = "@constant.macro" },
+        ["@lsp.type.typeParameter.cpp"] = { link = "@type" },
+        ["@lsp.typemod.variable.fileScope.c"] = { link = "@variable" },
+        ["@lsp.typemod.variable.fileScope.cpp"] = { link = "@variable" },
+        ["@lsp.typemod.variable.globalScope.c"] = { link = "@variable" },
+        ["@lsp.typemod.variable.globalScope.cpp"] = { link = "@variable" },
     }
 end
