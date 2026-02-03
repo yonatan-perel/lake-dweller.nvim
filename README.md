@@ -11,6 +11,7 @@
 
 - Neovim >= 0.8.0
 - `termguicolors` enabled
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (recommended for full syntax highlighting)
 
 ## Installation
 
@@ -59,17 +60,18 @@ require("lualine").setup({
 
 | Color | Hex | Usage |
 |-------|-----|-------|
-| Light Grey | `#d8d8d8` | Base text |
-| Rosy Pink | `#d58ca6` | Strings |
-| Soft Green | `#8ac490` | Comments |
-| Muted Slate | `#858d95` | Keywords |
-| Bright Red | `#ef8a90` | Constants, errors |
-| Pale Blue | `#b0c0e0` | Functions |
-| Muted Cyan | `#70a8a8` | Types |
-| Dark Navy | `#0e0e16` | Background |
+| ![#d8d8d8](https://placehold.co/15x15/d8d8d8/d8d8d8.png) Light Grey | `#d8d8d8` | Base text |
+| ![#d58ca6](https://placehold.co/15x15/d58ca6/d58ca6.png) Rosy Pink | `#d58ca6` | Strings |
+| ![#8ac490](https://placehold.co/15x15/8ac490/8ac490.png) Soft Green | `#8ac490` | Comments |
+| ![#858d95](https://placehold.co/15x15/858d95/858d95.png) Muted Slate | `#858d95` | Keywords |
+| ![#ef8a90](https://placehold.co/15x15/ef8a90/ef8a90.png) Bright Red | `#ef8a90` | Constants, errors |
+| ![#b0c0e0](https://placehold.co/15x15/b0c0e0/b0c0e0.png) Pale Blue | `#b0c0e0` | Functions |
+| ![#70a8a8](https://placehold.co/15x15/70a8a8/70a8a8.png) Muted Cyan | `#70a8a8` | Types |
+| ![#0e0e16](https://placehold.co/15x15/0e0e16/0e0e16.png) Dark Navy | `#0e0e16` | Background |
 
 ## Supported Plugins
 
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [fzf-lua](https://github.com/ibhagwan/fzf-lua)
