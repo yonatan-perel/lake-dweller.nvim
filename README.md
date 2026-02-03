@@ -1,5 +1,8 @@
 # lake-dweller.nvim
 
+![Neovim](https://img.shields.io/badge/Neovim-0.8+-green?logo=neovim)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
 <p align="center">
   <img src="assets/screenshot.png" width="49%">
   <img src="assets/screenshot-2.png" width="49%">
@@ -72,6 +75,7 @@ require("lualine").setup({
 ## Supported Plugins
 
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [fzf-lua](https://github.com/ibhagwan/fzf-lua)
