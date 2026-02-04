@@ -22,7 +22,7 @@ return function(t, p, _config)
         Pmenu = { fg = t.fg, bg = t.float_bg },
         PmenuSel = { fg = t.fg, bg = t.selection },
         PmenuSbar = { fg = t.fg, bg = t.float_bg },
-        PmenuThumb = { fg = t.fg, bg = t.float_bg },
+        PmenuThumb = { bg = t.keyword },
 
         StatusLine = { fg = t.fg, bg = t.float_bg },
         StatusLineNC = { fg = t.fg_dim, bg = t.float_bg },
