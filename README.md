@@ -45,8 +45,9 @@
 
 ```lua
 require("lake-dweller").setup({
-    transparent = false,  -- enable transparent background
-    italics = true,       -- enable italic text
+    transparent = false,       -- enable transparent background
+    italics = true,            -- enable italic text
+    float_background = false,  -- distinct background for floating windows
 })
 ```
 
@@ -92,6 +93,7 @@ require("lualine").setup({
 - [Snacks.nvim](https://github.com/folke/snacks.nvim)
 - [nvim-notify](https://github.com/rcarriga/nvim-notify)
 - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
+- [noice.nvim](https://github.com/folke/noice.nvim)
 
 ## Philosophy
 

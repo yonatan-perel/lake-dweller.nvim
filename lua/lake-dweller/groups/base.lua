@@ -1,15 +1,15 @@
-return function(t, p, config)
+return function(t, p, _config)
     return {
         Normal = { fg = t.fg, bg = t.bg },
         NormalNC = { fg = t.fg, bg = t.bg },
         NormalFloat = { fg = t.fg, bg = t.float_bg },
-        FloatBorder = { fg = t.keyword, bg = t.float_bg },
+        FloatBorder = { fg = t.fg, bg = t.bg },
         FloatTitle = { fg = t.fg, bg = t.float_bg, bold = true },
 
         SignColumn = { fg = t.fg, bg = t.bg },
         LineNr = { fg = t.fg_dim, bg = t.bg },
         CursorLineNr = { fg = t.fg, bg = t.bg },
-        WinSeparator = { fg = t.border, bg = t.bg },
+        WinSeparator = { fg = t.fg_dim, bg = t.bg },
 
         Visual = { fg = t.fg, bg = t.selection },
         Search = { fg = t.fg, bg = t.search, bold = true },
@@ -20,9 +20,9 @@ return function(t, p, config)
         QuickFixLine = { fg = p.dark_navy, bg = t.warn },
 
         Pmenu = { fg = t.fg, bg = t.float_bg },
-        PmenuSel = { fg = p.dark_navy, bg = t.type, bold = true },
+        PmenuSel = { fg = t.fg, bg = t.selection },
         PmenuSbar = { fg = t.fg, bg = t.float_bg },
-        PmenuThumb = { fg = t.fg, bg = t.float_bg },
+        PmenuThumb = { bg = t.keyword },
 
         StatusLine = { fg = t.fg, bg = t.float_bg },
         StatusLineNC = { fg = t.fg_dim, bg = t.float_bg },
