@@ -3,18 +3,18 @@ local p = require("lake-dweller.palette")
 return function(config)
     local bg = config.transparent and p.none or p.dark_navy
 
+    local float_bg = config.float_background and p.night_purple or bg
+
     return {
         -- UI
         bg = bg,
         fg = p.light_grey,
         fg_dim = p.steel_grey,
-        border = p.ash_grey,
         selection = p.dusk_blue,
-        search = p.dark_teal,
+        search = p.dusk_blue,
         search_current = p.aqua_teal,
         search_inc = p.sand_yellow,
-        float_bg = p.dark_teal,
-        panel_bg = p.deep_blue,
+        float_bg = float_bg,
 
         -- Syntax
         comment = p.soft_green,

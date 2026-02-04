@@ -3,6 +3,7 @@ local M = {}
 M.config = {
     transparent = false,
     italics = true,
+    float_background = false, -- true = distinct lighter background, false = same as editor
 }
 
 function M.setup(opts)
