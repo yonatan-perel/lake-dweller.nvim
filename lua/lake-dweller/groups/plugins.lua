@@ -203,7 +203,7 @@ return function(t, p, config)
         GitSignsUntrackedCul = { fg = t.fg_dim },
         GitSignsAddPreview = { fg = t.added, bg = t.float_bg },
         GitSignsDeletePreview = { fg = t.deleted, bg = t.float_bg },
-        GitSignsCurrentLineBlame = { fg = t.fg_dim, italic = italic },
+        GitSignsCurrentLineBlame = { fg = t.virtual_text, italic = italic },
         GitSignsAddInline = { bg = t.selection_added },
         GitSignsDeleteInline = { bg = t.selection_deleted },
         GitSignsChangeInline = { bg = t.selection },
@@ -258,6 +258,6 @@ return function(t, p, config)
         NoiceScrollbarThumb = { bg = t.selection },
         NoiceSplit = { fg = t.fg, bg = t.bg },
         NoiceSplitBorder = { fg = t.fg, bg = t.bg },
-        NoiceVirtualText = { fg = t.keyword, italic = italic },
+        NoiceVirtualText = { fg = t.virtual_text, italic = italic },
     }
 end

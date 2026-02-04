@@ -32,6 +32,9 @@ return function(config)
         hint = p.aqua_teal,
         info = p.light_grey,
 
+        -- Virtual text
+        virtual_text = p.muted_slate,
+
         -- Diff/Git
         added = p.soft_green,
         changed = p.pale_blue,
