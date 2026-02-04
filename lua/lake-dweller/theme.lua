@@ -36,5 +36,7 @@ return function(config)
         added = p.soft_green,
         changed = p.pale_blue,
         deleted = p.bright_red,
+        selection_added = p.diff_green,
+        selection_deleted = p.diff_red,
     }
 end

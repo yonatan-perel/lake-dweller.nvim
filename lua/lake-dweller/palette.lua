@@ -13,5 +13,7 @@ return {
     dusk_blue   = "#33415c",
     sand_yellow = "#d1b77a",
     aqua_teal   = "#5fa6a6",
+    diff_green  = "#1a2e1f",
+    diff_red    = "#2e1a1a",
     none        = "NONE",
 }
