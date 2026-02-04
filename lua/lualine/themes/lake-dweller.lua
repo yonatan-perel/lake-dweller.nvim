@@ -1,18 +1,4 @@
-local C = {
-    light_grey = "#d8d8d8",
-    rosy_pink = "#d58ca6",
-    soft_green = "#8ac490",
-    muted_slate = "#858d95",
-    bright_red = "#ef8a90",
-    pale_blue = "#b0c0e0",
-    muted_cyan = "#70a8a8",
-    dark_navy = "#0e0e16",
-    steel_grey = "#5a6475",
-    deep_blue = "#252f3d",
-    dusk_blue = "#33415c",
-    sand_yellow = "#d1b77a",
-    aqua_teal = "#5fa6a6",
-}
+local C = require("lake-dweller.palette")
 
 return {
     normal = {

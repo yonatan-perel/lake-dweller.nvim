@@ -142,7 +142,6 @@ return function(t, p, config)
         WhichKey = { fg = t.func, bg = t.bg },
         WhichKeyGroup = { fg = t.type, bg = t.bg, bold = true },
         WhichKeyDesc = { fg = t.fg, bg = t.bg },
-        WhichKeySeperator = { fg = t.fg_dim, bg = t.bg },
         WhichKeySeparator = { fg = t.fg_dim, bg = t.bg },
         WhichKeyFloat = { fg = t.fg, bg = t.bg },
         WhichKeyBorder = { fg = t.fg, bg = t.bg },

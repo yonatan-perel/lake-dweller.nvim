@@ -1,4 +1,4 @@
-return function(t, p, config)
+return function(t, p, _config)
     return {
         Normal = { fg = t.fg, bg = t.bg },
         NormalNC = { fg = t.fg, bg = t.bg },
