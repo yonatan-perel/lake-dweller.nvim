@@ -3,63 +3,63 @@ name = "Lake Dweller"
 origin_url = "https://github.com/yonatan-perel/lake-dweller.nvim"
 
 [colors]
-foreground = "#d8d8d8"
-background = "#0e0e16"
+foreground = "#d8d8d8"  # light_grey
+background = "#0e0e16"  # dark_navy
 
-cursor_bg = "#d8d8d8"
-cursor_fg = "#1f2430"
-cursor_border = "#d8d8d8"
+cursor_bg = "#d8d8d8"   # light_grey
+cursor_fg = "#0e0e16"   # dark_navy
+cursor_border = "#d8d8d8"  # light_grey
 
-selection_bg = "#858d95"
-selection_fg = "#1f2430"
+selection_bg = "#33415c"  # dusk_blue (matches editor selection)
+selection_fg = "#d8d8d8"  # light_grey
 
-scrollbar_thumb = "#858d95"
-split = "#858d95"
+scrollbar_thumb = "#5a6475"  # steel_grey
+split = "#5a6475"  # steel_grey
 
 ansi = [
-  "#101010", # 0 black
-  "#ef6f6f", # 1 red
-  "#8ac490", # 2 green
-  "#d8c6a0", # 3 yellow (beige)
-  "#adc7e6", # 4 blue
-  "#d58ca6", # 5 magenta (rosy-pink)
-  "#8abbb4", # 6 cyan
-  "#d8d8d8", # 7 white (light-grey)
+  "#0e0e16",  # 0 black (dark_navy)
+  "#ef8a90",  # 1 red (bright_red)
+  "#8ac490",  # 2 green (soft_green)
+  "#d1b77a",  # 3 yellow (sand_yellow)
+  "#b0c0e0",  # 4 blue (pale_blue)
+  "#d58ca6",  # 5 magenta (rosy_pink)
+  "#70a8a8",  # 6 cyan (muted_cyan)
+  "#d8d8d8",  # 7 white (light_grey)
 ]
 
 brights = [
-  "#858d95", # 8 bright black (slate)
-  "#ef6f6f", # 9 bright red
-  "#8ac490", # 10 bright green
-  "#e0d2b6", # 11 bright yellow (lighter beige)
-  "#adc7e6", # 12 bright blue
-  "#d58ca6", # 13 bright magenta
-  "#8abbb4", # 14 bright cyan
-  "#f0f0f0", # 15 bright white (new off-white)
+  "#5a6475",  # 8 bright black (steel_grey)
+  "#ef8a90",  # 9 bright red (bright_red)
+  "#8ac490",  # 10 bright green (soft_green)
+  "#d1b77a",  # 11 bright yellow (sand_yellow)
+  "#b0c0e0",  # 12 bright blue (pale_blue)
+  "#d58ca6",  # 13 bright magenta (rosy_pink)
+  "#5fa6a6",  # 14 bright cyan (aqua_teal)
+  "#d8d8d8",  # 15 bright white (light_grey)
 ]
 
 [colors.tab_bar]
-background = "#1f2430"
+background = "#1a1a26"  # night_purple
 
 [colors.tab_bar.active_tab]
-bg_color = "#d8d8d8"
-fg_color = "#1f2430"
+bg_color = "#252f3d"  # deep_blue
+fg_color = "#d8d8d8"  # light_grey
 intensity = "Bold"
 
 [colors.tab_bar.inactive_tab]
-bg_color = "#1f2430"
-fg_color = "#858d95"
+bg_color = "#1a1a26"  # night_purple
+fg_color = "#5a6475"  # steel_grey
 
 [colors.tab_bar.inactive_tab_hover]
-bg_color = "#1f2430"
-fg_color = "#d8d8d8"
+bg_color = "#1a1a26"  # night_purple
+fg_color = "#d8d8d8"  # light_grey
 italic = true
 
 [colors.tab_bar.new_tab]
-bg_color = "#1f2430"
-fg_color = "#858d95"
+bg_color = "#1a1a26"  # night_purple
+fg_color = "#5a6475"  # steel_grey
 
 [colors.tab_bar.new_tab_hover]
-bg_color = "#1f2430"
-fg_color = "#d8d8d8"
+bg_color = "#1a1a26"  # night_purple
+fg_color = "#d8d8d8"  # light_grey
 italic = true
