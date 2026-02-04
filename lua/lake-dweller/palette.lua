@@ -7,7 +7,7 @@ return {
     pale_blue   = "#b0c0e0",
     muted_cyan  = "#70a8a8",
     dark_navy   = "#0e0e16",
-    night_purple = "#1e1e2a",
+    night_purple = "#252532",
     steel_grey  = "#5a6475",
     deep_blue   = "#252f3d",
     dusk_blue   = "#33415c",
