@@ -14,6 +14,6 @@ return {
     sand_yellow = "#d1b77a",
     aqua_teal   = "#5fa6a6",
     diff_green  = "#1a2e1f",
-    diff_red    = "#2e1a1a",
+    diff_red    = "#3a2020",
     none        = "NONE",
 }
