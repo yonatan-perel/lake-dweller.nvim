@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="assets/all-variants.png" width="100%">
-  <sub><strong>ocean-dweller</strong> · <strong>lake-dweller</strong> · <strong>pond-dweller</strong></sub>
+  <sub><strong>ocean-dweller</strong> · <strong>lake-dweller</strong> · <strong>pond-dweller</strong> · <strong>harbor-dweller</strong></sub>
 </p>
 
 ## Requirements
@@ -24,7 +24,7 @@
     priority = 1000,
     config = function()
         require("lake-dweller").setup({
-            variant = "lake-dweller", -- "lake-dweller", "pond-dweller", or "ocean-dweller"
+            variant = "lake-dweller", -- "lake-dweller", "pond-dweller", "ocean-dweller", or "harbor-dweller"
         })
         vim.cmd.colorscheme("lake-dweller")
     end,
@@ -35,7 +35,7 @@
 
 ```lua
 require("lake-dweller").setup({
-    variant = "lake-dweller",  -- "lake-dweller", "pond-dweller", or "ocean-dweller"
+    variant = "lake-dweller",  -- "lake-dweller", "pond-dweller", "ocean-dweller", or "harbor-dweller"
     transparent = false,       -- enable transparent background
     italics = true,            -- enable italic text
     float_background = false,  -- distinct background for floating windows
@@ -46,9 +46,9 @@ require("lake-dweller").setup({
 
 Additional theme files for other applications are in the `extras/` directory:
 
-- **WezTerm**: `extras/wezterm/lake-dweller.toml`, `pond-dweller.toml`, `ocean-dweller.toml`
-- **Ghostty**: `extras/ghostty/lake-dweller`, `pond-dweller`, `ocean-dweller`
-- **Alacritty**: `extras/alacritty/lake-dweller.toml`, `pond-dweller.toml`, `ocean-dweller.toml`
+- **WezTerm**: `extras/wezterm/lake-dweller.toml`, `pond-dweller.toml`, `ocean-dweller.toml`, `harbor-dweller.toml`
+- **Ghostty**: `extras/ghostty/lake-dweller`, `pond-dweller`, `ocean-dweller`, `harbor-dweller`
+- **Alacritty**: `extras/alacritty/lake-dweller.toml`, `pond-dweller.toml`, `ocean-dweller.toml`, `harbor-dweller.toml`
 
 ### Lualine
 
@@ -107,6 +107,22 @@ require("lualine").setup({
 | ![#40c8c8](https://placehold.co/15x15/40c8c8/40c8c8.png) Bright Cyan | `#40c8c8` | Types |
 | ![#f07098](https://placehold.co/15x15/f07098/f07098.png) Hot Pink | `#f07098` | Strings |
 | ![#ff6070](https://placehold.co/15x15/ff6070/ff6070.png) Vivid Red | `#ff6070` | Constants, errors |
+
+</details>
+
+<details>
+<summary><strong>harbor-dweller</strong></summary>
+
+| Color | Hex | Usage |
+|-------|-----|-------|
+| ![#1e2030](https://placehold.co/15x15/1e2030/1e2030.png) Slate Stone | `#1e2030` | Background |
+| ![#cdd6f4](https://placehold.co/15x15/cdd6f4/cdd6f4.png) Off White | `#cdd6f4` | Base text |
+| ![#9ec396](https://placehold.co/15x15/9ec396/9ec396.png) Sage Green | `#9ec396` | Comments |
+| ![#8b95a0](https://placehold.co/15x15/8b95a0/8b95a0.png) Slate Grey | `#8b95a0` | Keywords |
+| ![#7aa2f7](https://placehold.co/15x15/7aa2f7/7aa2f7.png) Sky Blue | `#7aa2f7` | Functions |
+| ![#d4be7e](https://placehold.co/15x15/d4be7e/d4be7e.png) Sandy Khaki | `#d4be7e` | Types |
+| ![#d4886a](https://placehold.co/15x15/d4886a/d4886a.png) Soft Orange | `#d4886a` | Strings |
+| ![#e06c75](https://placehold.co/15x15/e06c75/e06c75.png) Muted Red | `#e06c75` | Constants, errors |
 
 </details>
 
