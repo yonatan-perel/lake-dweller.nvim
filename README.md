@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="assets/all-variants.png" width="100%">
-  <sub><strong>ocean-dweller</strong> · <strong>lake-dweller</strong> · <strong>pond-dweller</strong> · <strong>harbor-dweller</strong></sub>
+  <sub><strong>ocean-dweller</strong> · <strong>lake-dweller</strong> · <strong>pond-dweller</strong></sub>
 </p>
 
 ## Requirements
@@ -24,7 +24,7 @@
     priority = 1000,
     config = function()
         require("lake-dweller").setup({
-            variant = "lake-dweller", -- "lake-dweller", "pond-dweller", "ocean-dweller", or "harbor-dweller"
+            variant = "lake-dweller", -- "lake-dweller", "pond-dweller", "ocean-dweller", "harbor-dweller", or "nay-dweller"
         })
         vim.cmd.colorscheme("lake-dweller")
     end,
@@ -35,7 +35,7 @@
 
 ```lua
 require("lake-dweller").setup({
-    variant = "lake-dweller",  -- "lake-dweller", "pond-dweller", "ocean-dweller", or "harbor-dweller"
+    variant = "lake-dweller",  -- "lake-dweller", "pond-dweller", "ocean-dweller", "harbor-dweller", or "nay-dweller"
     transparent = false,       -- enable transparent background
     italics = true,            -- enable italic text
     float_background = false,  -- distinct background for floating windows
@@ -44,11 +44,11 @@ require("lake-dweller").setup({
 
 ## Extras
 
-Additional theme files for other applications are in the `extras/` directory:
+Theme files for other applications live under `extras/`, with one file per variant in each directory:
 
-- **WezTerm**: `extras/wezterm/lake-dweller.toml`, `pond-dweller.toml`, `ocean-dweller.toml`, `harbor-dweller.toml`
-- **Ghostty**: `extras/ghostty/lake-dweller`, `pond-dweller`, `ocean-dweller`, `harbor-dweller`
-- **Alacritty**: `extras/alacritty/lake-dweller.toml`, `pond-dweller.toml`, `ocean-dweller.toml`, `harbor-dweller.toml`
+- **WezTerm** — `extras/wezterm/<variant>.toml`
+- **Ghostty** — `extras/ghostty/<variant>`
+- **Alacritty** — `extras/alacritty/<variant>.toml`
 
 ### Lualine
 
@@ -60,10 +60,11 @@ require("lualine").setup({
 })
 ```
 
-## Color Palette
-
 <details>
-<summary><strong>lake-dweller</strong></summary>
+<summary><strong>Variants</strong> — click to expand color palettes</summary>
+
+#### lake-dweller
+Dark navy with soft greens and pale blues. The default — balanced, low-contrast.
 
 | Color | Hex | Usage |
 |-------|-----|-------|
@@ -76,10 +77,8 @@ require("lualine").setup({
 | ![#d58ca6](https://placehold.co/15x15/d58ca6/d58ca6.png) Rosy Pink | `#d58ca6` | Strings |
 | ![#ef8a90](https://placehold.co/15x15/ef8a90/ef8a90.png) Bright Red | `#ef8a90` | Constants, errors |
 
-</details>
-
-<details>
-<summary><strong>pond-dweller</strong></summary>
+#### pond-dweller
+Dusky purple background with pastel mints and blush pinks. Softer, slightly warmer.
 
 | Color | Hex | Usage |
 |-------|-----|-------|
@@ -92,10 +91,8 @@ require("lualine").setup({
 | ![#e8b0c4](https://placehold.co/15x15/e8b0c4/e8b0c4.png) Blush Pink | `#e8b0c4` | Strings |
 | ![#f0a8b0](https://placehold.co/15x15/f0a8b0/f0a8b0.png) Soft Coral | `#f0a8b0` | Constants, errors |
 
-</details>
-
-<details>
-<summary><strong>ocean-dweller</strong></summary>
+#### ocean-dweller
+Near-black abyss with vivid greens and electric blues. Highest contrast.
 
 | Color | Hex | Usage |
 |-------|-----|-------|
@@ -108,10 +105,8 @@ require("lualine").setup({
 | ![#f07098](https://placehold.co/15x15/f07098/f07098.png) Hot Pink | `#f07098` | Strings |
 | ![#ff6070](https://placehold.co/15x15/ff6070/ff6070.png) Vivid Red | `#ff6070` | Constants, errors |
 
-</details>
-
-<details>
-<summary><strong>harbor-dweller</strong></summary>
+#### harbor-dweller
+Slate-stone blue with sage greens and soft orange. Calmer, more saturated.
 
 | Color | Hex | Usage |
 |-------|-----|-------|
@@ -121,8 +116,24 @@ require("lualine").setup({
 | ![#8b95a0](https://placehold.co/15x15/8b95a0/8b95a0.png) Slate Grey | `#8b95a0` | Keywords |
 | ![#7aa2f7](https://placehold.co/15x15/7aa2f7/7aa2f7.png) Sky Blue | `#7aa2f7` | Functions |
 | ![#d4be7e](https://placehold.co/15x15/d4be7e/d4be7e.png) Sandy Khaki | `#d4be7e` | Types |
-| ![#d4886a](https://placehold.co/15x15/d4886a/d4886a.png) Soft Orange | `#d4886a` | Strings |
+| ![#e09778](https://placehold.co/15x15/e09778/e09778.png) Soft Orange | `#e09778` | Strings |
 | ![#e06c75](https://placehold.co/15x15/e06c75/e06c75.png) Muted Red | `#e06c75` | Constants, errors |
+
+#### nay-dweller
+Inspired by Jonathan Blow's Emacs theme — deep teal background, sparse cool/pale palette, vivid green comments.
+
+| Color | Hex | Usage |
+|-------|-----|-------|
+| ![#062329](https://placehold.co/15x15/062329/062329.png) Deep Teal | `#062329` | Background |
+| ![#d3b58d](https://placehold.co/15x15/d3b58d/d3b58d.png) Wheat Cream | `#d3b58d` | Base text |
+| ![#c1d1e3](https://placehold.co/15x15/c1d1e3/c1d1e3.png) Pale Sky | `#c1d1e3` | Keywords |
+| ![#fdc35e](https://placehold.co/15x15/fdc35e/fdc35e.png) Warm Gold | `#fdc35e` | Functions |
+| ![#d8a070](https://placehold.co/15x15/d8a070/d8a070.png) Driftwood Tan | `#d8a070` | Types |
+| ![#44b340](https://placehold.co/15x15/44b340/44b340.png) Vivid Green | `#44b340` | Comments |
+| ![#2ec09c](https://placehold.co/15x15/2ec09c/2ec09c.png) Teal Green | `#2ec09c` | Strings |
+| ![#7ad0c6](https://placehold.co/15x15/7ad0c6/7ad0c6.png) Soft Cyan | `#7ad0c6` | Constants, numbers |
+| ![#1a3478](https://placehold.co/15x15/1a3478/1a3478.png) Deep Blue | `#1a3478` | Selection |
+| ![#e06c75](https://placehold.co/15x15/e06c75/e06c75.png) Muted Red | `#e06c75` | Errors |
 
 </details>
 

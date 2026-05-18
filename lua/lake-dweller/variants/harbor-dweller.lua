@@ -18,7 +18,7 @@ return {
     type = "#d4be7e",
 
     -- Constants
-    string = "#d4886a",
+    string = "#e09778",
     constant = "#e06c75",
 
     -- Diagnostics

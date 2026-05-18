@@ -1,0 +1,65 @@
+[metadata]
+name = "Nay Dweller"
+origin_url = "https://github.com/yonatan-perel/lake-dweller.nvim"
+
+[colors]
+foreground = "#d3b58d"
+background = "#062329"
+
+cursor_bg = "#d3b58d"
+cursor_fg = "#062329"
+cursor_border = "#d3b58d"
+
+selection_bg = "#1a3478"
+selection_fg = "#d3b58d"
+
+scrollbar_thumb = "#7a6850"
+split = "#7a6850"
+
+ansi = [
+  "#062329",  # 0 black
+  "#e06c75",  # 1 red
+  "#9ed697",  # 2 green
+  "#fdc35e",  # 3 yellow
+  "#88aabb",  # 4 blue
+  "#44b340",  # 5 magenta (comment/accent)
+  "#2ec09c",  # 6 cyan (string)
+  "#d3b58d",  # 7 white
+]
+
+brights = [
+  "#7a6850",  # 8 bright black
+  "#e06c75",  # 9 bright red
+  "#9ed697",  # 10 bright green
+  "#fdc35e",  # 11 bright yellow
+  "#88aabb",  # 12 bright blue
+  "#44b340",  # 13 bright magenta
+  "#2ec09c",  # 14 bright cyan
+  "#d3b58d",  # 15 bright white
+]
+
+[colors.tab_bar]
+background = "#0b3335"
+
+[colors.tab_bar.active_tab]
+bg_color = "#1a3478"
+fg_color = "#d3b58d"
+intensity = "Bold"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#0b3335"
+fg_color = "#7a6850"
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "#0b3335"
+fg_color = "#d3b58d"
+italic = true
+
+[colors.tab_bar.new_tab]
+bg_color = "#0b3335"
+fg_color = "#7a6850"
+
+[colors.tab_bar.new_tab_hover]
+bg_color = "#0b3335"
+fg_color = "#d3b58d"
+italic = true

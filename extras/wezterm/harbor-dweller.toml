@@ -22,7 +22,7 @@ ansi = [
   "#9ec396",  # 2 green
   "#e0af68",  # 3 yellow
   "#7aa2f7",  # 4 blue
-  "#d4886a",  # 5 magenta (string)
+  "#e09778",  # 5 magenta (string)
   "#d4be7e",  # 6 cyan
   "#cdd6f4",  # 7 white
 ]
@@ -33,7 +33,7 @@ brights = [
   "#9ec396",  # 10 bright green
   "#e0af68",  # 11 bright yellow
   "#7aa2f7",  # 12 bright blue
-  "#d4886a",  # 13 bright magenta
+  "#e09778",  # 13 bright magenta
   "#d4be7e",  # 14 bright cyan
   "#cdd6f4",  # 15 bright white
 ]
